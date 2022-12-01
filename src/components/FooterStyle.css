@@ -1,0 +1,26 @@
+.footer{
+    width: 100%;
+    padding: 4rem 0;
+    background-color: rgb(23, 23, 23);
+}
+.footer-container{
+    padding: 0 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container .right{
+    padding-left: 5rem;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 640px) {
+    .footer-container .right{
+        padding-top: 2rem;
+    }
+  }

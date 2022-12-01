@@ -1,0 +1,11 @@
+.Card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    margin: 1rem 2rem ;
+    /* background-color: rgb(227, 51, 51); */
+}

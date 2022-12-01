@@ -1,0 +1,41 @@
+.headerImg{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    height: 60vh;
+    position: relative;
+}
+.headerImg::before{
+    content: "";
+    background: url("https://techmoran.com/wp-content/uploads/2021/07/photo-1555066931-4365d14bab8c.jpg");
+    background-size: cover;
+    background-position: center top;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.headerImg h1{
+    font-size: 2.4rem;
+}
+
+.headerImg p{
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.heading{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 640px) {
+    .headerImg h1{
+        font-size: 2rem;
+    }
+  }

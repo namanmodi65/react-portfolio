@@ -1,0 +1,32 @@
+.about-content{
+    display: flex;
+    width: 100%;
+    margin: 3rem 0;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.about-content .about-left{
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    max-width: 350px;
+}
+.about-content .about-left p{
+    margin: 1.2rem 0;
+    font-size: 1rem;
+}
+
+.about-content .about-right{
+    margin: auto;
+    max-width: 700px;
+}
+
+
+@media screen and (max-width: 640px) {
+    .about-content .about-right img{
+       width: 300px; 
+    }
+}
